@@ -23,13 +23,16 @@ public class TechTest {
         webdriverContainer.clearBrowserCache();
 //
         Configuration.browser="chrome";
-        Configuration.remote = "http://docker.testing-studio.com:5001/wd/hub";
+//        Configuration.remote = "http://docker.testing-studio.com:5001/wd/hub";
+        Configuration.remote = "http://192.168.126.130:5001/wd/hub";
 
-        String baseUrl = "http://docker.testing-studio.com:8999/";
+//        String baseUrl = "http://docker.testing-studio.com:8999/";
+        String baseUrl = "http://192.168.126.130:5001/";
+
 
         com.codeborne.selenide.Selenide.open(baseUrl);
 
-        $(byText("Welcome Gaofei!")).should(Condition.visible);
+        $(byText("Selenium")).should(Condition.visible);
 
 
         System.out.print("");
