@@ -27,12 +27,12 @@ public class TechTest {
         Configuration.remote = "http://192.168.126.130:5001/wd/hub";
 
 //        String baseUrl = "http://docker.testing-studio.com:8999/";
-        String baseUrl = "http://192.168.126.130:5001/";
+        String baseUrl = "https://www.w3school.com.cn/";
 
 
         com.codeborne.selenide.Selenide.open(baseUrl);
 
-        $(byText("Selenium")).should(Condition.visible);
+        $(byText("完整的网站技术参考手册")).should(Condition.visible);
 
 
         System.out.print("");
