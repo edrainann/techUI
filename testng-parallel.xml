@@ -5,16 +5,16 @@
         </classes>
     </test>
 
-    <test name="tech2">
-        <classes>
-            <class name="TechTest" />
-        </classes>
-    </test>
+<!--    <test name="tech2">-->
+<!--        <classes>-->
+<!--            <class name="TechTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="tech3">
-        <classes>
-            <class name="TechTest" />
-        </classes>
-    </test>
+<!--    <test name="tech3">-->
+<!--        <classes>-->
+<!--            <class name="TechTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>

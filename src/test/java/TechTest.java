@@ -28,6 +28,7 @@ public class TechTest {
 
 //        String baseUrl = "http://docker.testing-studio.com:8999/";
         String baseUrl = "https://www.w3school.com.cn/";
+        Configuration.baseUrl = "https://www.w3school.com.cn/";
 
 
         com.codeborne.selenide.Selenide.open(baseUrl);
